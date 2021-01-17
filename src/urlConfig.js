@@ -1,4 +1,4 @@
-const baseUrl = location.hostname === 'localhost' ? 'http://localhost:2000' : 'https://flipkart-rest-serverr.herokuapp.com';
+const baseUrl = 'https://flipkart-rest-serverr.herokuapp.com';
 
 export const api = `${baseUrl}/api`;
 
